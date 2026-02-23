@@ -818,10 +818,6 @@ def start_chat(username):
                         # Clear success message
                         sys.stdout.write("\033[F\033[K")
                         
-                        # ════════════════════════════════════════════════════════════
-                        # FIXED: CHATROOM NOW HAS 1 REQUEST ONLY (GET ROOM MESSAGES)
-                        # TANGGAL ANG GET ROOM INFO REQUEST
-                        # ════════════════════════════════════════════════════════════
                         if current_mode == "public":
                             messages = get_messages()
                             display_public_chat(username, messages, show_prompt=True)
