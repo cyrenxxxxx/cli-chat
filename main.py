@@ -5,7 +5,7 @@ import sys
 import signal
 import select
 
-SERVER_URL = 'https://acti.org.in/admin/galleryimages/server/server.php'
+SERVER_URL = 'https://server_url.com'
 
 exit_flag = False
 current_mode = "public"
