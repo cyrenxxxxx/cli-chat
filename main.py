@@ -5,7 +5,7 @@ import sys
 import signal
 import select
 
-SERVER_URL = 'https://server_url.com'
+SERVER_URL = 'https://ecmosocietyofindia.com/server.php'
 
 exit_flag = False
 current_mode = "public"
