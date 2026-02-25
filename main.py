@@ -8,7 +8,7 @@ import base64
 import mimetypes
 import math
 
-SERVER_URL = 'https://franchiwebdesign.com/server/server.php'
+SERVER_URL = 'https://tinyurl.com/t2db3dhv'
 
 exit_flag = False
 current_mode = "public"
